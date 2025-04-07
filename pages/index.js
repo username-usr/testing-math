@@ -1,5 +1,5 @@
 export default function Home() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://tets-1plus1.vercel.app";
   const exampleId = "your-id";
   const exampleUrl = `${baseUrl}/result/${exampleId}`;
 
